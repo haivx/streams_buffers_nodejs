@@ -63,6 +63,7 @@ Câu hỏi đặt ra là kích thước của buffer tối đa là bao nhiêu?
 - Có thể dùng phương thức `pipe()` để thay thế phương thức ghi file trên. Ưu điểm của phương thức này là:
   - Tránh hiện tượng slow client: Thông thường quá trình đọc file(request từ client gửi lên) sẽ nhanh hơn quá trình ghi file(response của server). Node là non-blocking I/O, mọi request lên server đều được xử lý ngay. Nếu connection từ server bị chậm lại vì lý do nào đó, lượng data server gửi về client sẽ bị dồn lại theo thời gian, do đó phương thức `pipe()` sẽ giúp cho data được `route` - `điều hướng` để giúp cho server hoạt động bình thường.
   - Code sẽ gọn hơn so với dùng cách khai báo event.
+  
 c) Dùng streams để đọc file và ghi file ra browser:
 Tương tự với đọc file trên local, điều khác biệt ở đây data hay response sẽ là tham số được truyền vào phương thức ghi file `pipe()`
 ```js
