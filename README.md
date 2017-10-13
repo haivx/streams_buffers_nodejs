@@ -22,7 +22,7 @@ c) Streams là gì?
  Trong Nodejs, Streams có 3 loại:
   - Readble: Stream được sử dụng cho hoạt động đọc
   - Writable: Stream được sử dụng cho hoạt động ghi dữ liệu
-  - Duplex: Stream được sử dụng cho cả mục đích ghi và đọc
+  - Duplex: Stream được sử dụng cho cả mục đích ghi và đọc<br><br>
   ![Hình minh họa cho Streams](https://github.com/haivx/streams_buffers_nodejs/blob/master/streams.png)
 
 ##2. Ví dụ:
