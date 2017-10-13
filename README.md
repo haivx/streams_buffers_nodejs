@@ -23,7 +23,7 @@ c) Streams là gì?
   - Readble: Stream được sử dụng cho hoạt động đọc
   - Writable: Stream được sử dụng cho hoạt động ghi dữ liệu
   - Duplex: Stream được sử dụng cho cả mục đích ghi và đọc
-  ![Hình minh họa cho Streams](https://github.com/haivx/streams_buffers_nodejs/master/streams.png)
+  ![Hình minh họa cho Streams](https://github.com/haivx/streams_buffers_nodejs/blob/master/streams.png)
 
 ##2. Ví dụ:
 a) Dùng streams để đọc file trong local
